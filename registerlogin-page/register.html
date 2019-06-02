@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up</title>
+
+    <!-- Font Icon -->
+    <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="css/style.css">
+    
+  
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Roboto:100,300,400,500,700|Philosopher:400,400i,700,700i" rel="stylesheet">
+  
+    <!-- Bootstrap css -->
+    <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+  
+    <!-- Libraries CSS Files -->
+   
+    <script type="text/javascript" src="../js/dataprovider.js"></script>
+
+
+  
+</head>
+<body>
+    
+
+    <div class="main">
+
+        <section class="signup">
+         
+            <div class="container">
+                <div class="signup-content">
+                    <form method="POST" id="signup-form" class="signup-form">
+                        <h2 class="form-title">Create account</h2>
+                        <div class="form-group">
+                            <input type="text" class="form-input" name="name" id="namee" placeholder="Your Name"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-input" name="email" id="emaill" placeholder="Your Email"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" name="password" id="passwordd" placeholder="Password"/>
+                            <span toggle="#password" class="zmdi zmdi-eye field-icon toggle-password"></span>
+                        </div>
+                        <div class="form-group">
+                                <input type="text" class="form-input" name="height" id="heightt" placeholder="Your height in cms"/>
+                            </div>
+                        <div class="form-group">
+                                <input type="text" class="form-input" name="age" id="agee" placeholder="Your age"/>
+                            </div>
+                        <div class="form-group">
+                                <input type="text" class="form-input" name="weight" id="weightt" placeholder="Your weight in kgs"/>
+                            </div>        
+                       
+                       
+                        <div class="form-group">
+                            <input type="button" name="submit" id="submit" class="form-submit" value="Sign up" onclick= "putUser()"/>
+                        </div>
+                    </form>
+                    <p class="loginhere">
+                    Already have an account with us? <a href="./login.html" class="loginhere-link">Login Here</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>

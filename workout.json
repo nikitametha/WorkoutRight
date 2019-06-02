@@ -1,0 +1,12 @@
+{
+	"workouts" :[
+		{
+			"name":"sumo_squats",
+			"url":"sumo_squats.html"
+		},
+		{
+			"name":"planks",
+			"url":"planks.html"
+		}
+	]
+}
